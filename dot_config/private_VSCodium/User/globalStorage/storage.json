@@ -1,0 +1,130 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "b2c6e0f7f152bdb9dd7f542da53c2b41483704b88e116ad0bba1d4aa739f07d2",
+    "telemetry.devDeviceId": "6ec835b4-0ac9-417e-a52a-5fee0c277644",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/julianzby/.config/nvim"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/julianzby/.config/nvim": "__default__profile__",
+            "file:///home/julianzby/backup/1/nvim": "__default__profile__",
+            "file:///home/julianzby/.config/nvim/lua": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1795433481030": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#2e3440",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#d8dee9",
+            "background": "#2e3440",
+            "editorBackground": "#2e3440",
+            "titleBarBackground": "#2e3440",
+            "titleBarInactiveBackground": "#2e3440",
+            "titleBarBorder": "rgba(46, 52, 64, 0)",
+            "activityBarBackground": "#2e3440",
+            "modernActivityBarBackground": "#2e3440",
+            "modernActivityBarInactiveBackground": "#2e3440",
+            "modernActivityBarBorder": "#474d59",
+            "modernPanelBorder": "#474d59",
+            "modernUIShellBackground": "#2e3440",
+            "modernUIInactiveShellBackground": "#2e3440",
+            "sideBarBackground": "#2e3440",
+            "sideBarBorder": "#3b4252",
+            "panelBackground": "#2e3440",
+            "editorGroupBorder": "rgba(59, 66, 82, 0)",
+            "editorBorder": "#474d59",
+            "surfaceBackground": "#2e3440",
+            "surfaceBorder": "#474d59",
+            "agentsPanelBackground": "#2e3440",
+            "agentsPanelBorder": "rgba(216, 222, 233, 0.15)",
+            "statusBarBackground": "#3b4252",
+            "statusBarBorder": "rgba(59, 66, 82, 0)",
+            "statusBarNoFolderBackground": "#3b4252"
+        },
+        "layoutInfo": {
+            "sideBarSide": "right",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 26,
+            "windowBorder": false,
+            "modernUI": true,
+            "modernUICompact": true,
+            "partBounds": {
+                "sideBar": {
+                    "top": 35,
+                    "left": 1989,
+                    "width": 300,
+                    "height": 1197,
+                    "outerEdges": {
+                        "left": false,
+                        "right": true,
+                        "top": true,
+                        "bottom": true
+                    }
+                },
+                "editor": {
+                    "top": 35,
+                    "left": 0,
+                    "width": 1989,
+                    "height": 1197,
+                    "outerEdges": {
+                        "left": true,
+                        "right": false,
+                        "top": true,
+                        "bottom": true
+                    }
+                }
+            }
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/julianzby/.config/nvim",
+            "backupPath": "/home/julianzby/.config/VSCodium/Backups/0453d5c9b684dde12a918ffb696567a8",
+            "uiState": {
+                "mode": 1,
+                "x": 10,
+                "y": 10,
+                "width": 2289,
+                "height": 1258
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "081c0574b952398863406f1d4267aa31": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "76c98690be322d499b42e34d47693191": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "aefb33dd57965f23bf1b8f59b799e0a7": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

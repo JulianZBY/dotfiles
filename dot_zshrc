@@ -1,0 +1,21 @@
+HISTFILE=~/.zsh_history
+HISTSIZE=50000
+SAVEHIST=50000
+setopt share_history hist_ignore_all_dups hist_reduce_blanks hist_verify
+
+autoload -Uz compinit && compinit
+
+eval "$(mise activate zsh)"
+eval "$(sheldon source)"
+eval "$(zoxide init zsh)"
+eval "$(fzf --zsh)"
+eval "$(starship init zsh)"
+
+export HERMES_TUI=1
+
+# bindkey -v
+# bindkey -M viins 'jk' vi-cmd-mode
+
+# Hermes Agent command
+case ":$PATH:" in *":$HOME/.local/bin:"*) ;; *) export PATH="$HOME/.local/bin:$PATH" ;; esac
+

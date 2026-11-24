@@ -1,0 +1,158 @@
+config_version = 20
+
+[bar.default]
+capsule_radius = 0
+center = [ "clock", "media" ]
+end = [ "tray", "volume", "network", "brightness", "battery", "bluetooth", "notifications", "session" ]
+font_family = "JetBrainsMono NF"
+margin_ends = 0
+radius = 0
+shadow = false
+start = [ "launcher", "wallpaper", "workspaces", "btn" ]
+thickness = 25
+
+[brightness]
+enable_ddcutil = true
+
+[lockscreen_widgets]
+enabled = false
+schema_version = 2
+widget_order = [ "lockscreen-login-box@eDP-1", "lockscreen-login-box@DP-1" ]
+
+    [lockscreen_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@DP-1"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 1280.0
+    cy = 1258.0
+    output = "DP-1"
+    placement_height = 1440.0
+    placement_width = 2560.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@DP-1".settings]
+        background_color = "surface_container"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_password_reveal = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@eDP-1"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 960.0
+    cy = 898.0
+    output = "eDP-1"
+    placement_height = 1080.0
+    placement_width = 1920.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@eDP-1".settings]
+        background_color = "surface_container"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_password_reveal = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+[plugins]
+enabled = [ "ezequiel/mango_layouts" ]
+
+[shell]
+corner_radius_scale = 0.0
+font_family = "JetBrainsMono NF"
+polkit_agent = true
+
+    [shell.panel]
+    control_center_placement = "floating"
+    open_near_click_clipboard = true
+    open_near_click_control_center = true
+    open_near_click_launcher = true
+    open_near_click_session = true
+    open_near_click_wallpaper = true
+    session_placement = "floating"
+    shadow = false
+    wallpaper_placement = "floating"
+
+    [shell.screenshot]
+    directory = "/home/julianzby/Pictures/Screenshots"
+
+[theme]
+builtin = "Nord"
+community_palette = "Neon Surf"
+mode = "dark"
+source = "builtin"
+wallpaper_scheme = "m3-monochrome"
+
+    [theme.templates]
+    builtin_ids = [ "foot", "gtk3", "gtk4", "mango", "qt" ]
+    community_ids = [ "libreoffice", "obsidian", "vscode", "fastfetch", "fcitx5", "papirus-icons", "fzf", "starship" ]
+
+[wallpaper]
+directory = "/home/julianzby/Pictures/Wallpapers"
+
+    [wallpaper.default]
+    path = "/home/julianzby/Pictures/Wallpapers/Nord/girl_smoothed_nord.png"
+
+    [wallpaper.last]
+    path = "/home/julianzby/Pictures/Wallpapers/Nord/girl_smoothed_nord.png"
+
+    [wallpaper.monitors.DP-1]
+    path = "/home/julianzby/Pictures/Wallpapers/Nord/girl_smoothed_nord.png"
+
+    [wallpaper.monitors.eDP-1]
+    path = "/home/julianzby/Pictures/Wallpapers/Nord/girl_smoothed_nord.png"
+
+[widget.bluetooth]
+show_label = true
+
+[widget.btn]
+show_glyph = false
+show_text = true
+type = "ezequiel/mango_layouts:btn"
+
+[widget.clock]
+format = "{:%Y-%m-%d %H:%M}"
+
+[widget.launcher]
+enabled = false
+
+[widget.media]
+hide_when_idle = true
+hide_when_no_media = true
+
+[widget.tray]
+hidden = [ "nm-applet", "blueman" ]
+match_adjacent_spacing = true
+
+[widget.wallpaper]
+enabled = false
+
+[widget.workspaces]
+hide_when_empty = true
+style = "minimal"

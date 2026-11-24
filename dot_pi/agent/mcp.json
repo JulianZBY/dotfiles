@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "context7": {
+      "url": "https://mcp.context7.com/mcp",
+      "exposure": "direct",
+      "description": "Up-to-date library/framework docs and code examples (resolve-library-id, query-docs)"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+README.md
+sddm-theme
+Bug-Fix
+Documents
+
+{{ if eq .chezmoi.os "linux" }}
+Documents/**
+{{ end }}
+
+{{ if ne .chezmoi.os "linux" }}
+executable_dot_zshrc
+.config/foot
+.config/mango
+.config/fcitx5
+.config/sheldon
+.config/fontconfig
+.config/starship.toml
+.local/state/noctalia
+{{ end }}

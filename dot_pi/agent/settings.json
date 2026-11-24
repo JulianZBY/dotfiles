@@ -1,0 +1,30 @@
+{
+  "packages": [
+    "npm:pi-web-search",
+    "npm:@xynogen/pix-optimizer",
+    "npm:pi-lens",
+    "npm:pi-ask-user",
+    "npm:@ff-labs/pi-fff",
+    "npm:@tintinweb/pi-subagents",
+    "npm:pi-open-tui",
+    "npm:@zhcsyncer/pi-tool-display-intent",
+    "npm:layermap",
+    "npm:context-mode"
+  ],
+  "quietStartup": true,
+  "terminal": {
+    "hyperlinks": true
+  },
+  "hideThinkingBlock": true,
+  "lastChangelogVersion": "1.6.0",
+  "extensionChangelogVersions": {
+    "{\"source\":\"npm:pi-lens\",\"scope\":\"user\"}": "4.5.2",
+    "{\"source\":\"npm:@tintinweb/pi-subagents\",\"scope\":\"user\"}": "0.26.3",
+    "{\"source\":\"npm:pi-open-tui\",\"scope\":\"user\"}": "0.4.7",
+    "{\"source\":\"npm:@zhcsyncer/pi-tool-display-intent\",\"scope\":\"user\"}": "0.10.2",
+    "{\"source\":\"npm:pi-tool-display\",\"scope\":\"user\"}": "0.5.0",
+    "{\"source\":\"npm:pi-powerline-footer\",\"scope\":\"user\"}": "0.22.0"
+  },
+  "defaultProvider": "deepseek",
+  "defaultModel": "deepseek-flash"
+}

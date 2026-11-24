@@ -1,0 +1,21 @@
+{
+    "workbench.startupEditor": "none",
+    "workbench.experimental.modernUI": true,
+    "workbench.activityBar.location": "top",
+    "workbench.sideBar.location": "right",
+    "window.density.layout": "compact",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "workbench.editor.enablePreview": false,
+    "[markdown]": {
+        "editor.wordWrap": "on"
+    },
+    "workbench.editor.wrapTabs": true,
+    "workbench.editorAssociations": {
+        "*.md": "ipreview.live",
+        "*.markdown": "ipreview.live"
+    },
+    "security.workspace.trust.enabled": false,
+    "workbench.colorTheme": "Nord"
+}
