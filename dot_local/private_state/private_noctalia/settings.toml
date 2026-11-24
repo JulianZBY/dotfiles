@@ -110,8 +110,19 @@ source = "builtin"
 wallpaper_scheme = "m3-monochrome"
 
     [theme.templates]
-    builtin_ids = [ "foot", "gtk3", "gtk4", "mango", "qt" ]
-    community_ids = [ "libreoffice", "obsidian", "vscode", "fastfetch", "fcitx5", "papirus-icons", "fzf", "starship" ]
+    builtin_ids = [ "foot", "gtk3", "gtk4", "kcolorscheme", "mango", "qt" ]
+    community_ids = [
+        "pi-agent",
+        "libreoffice",
+        "obsidian",
+        "vscode",
+        "fastfetch",
+        "fcitx5",
+        "papirus-icons",
+        "fzf",
+        "starship",
+        "yazi"
+    ]
 
 [wallpaper]
 directory = "/home/julianzby/Pictures/Wallpapers"
